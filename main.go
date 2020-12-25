@@ -16,12 +16,12 @@ import (
 )
 
 const (
-	width               = 4096
-	height              = 768
-	scale       float64 = 0.5 // Use 0.25 or 0.5
+	width               = 1920
+	height              = 1080
+	scale       float64 = 1 // Use 0.25 or 0.5
 	numConns            = 4
-	serverWand          = "151.217.111.34:1234"
-	serverBühne         = "151.217.176.193:1234" // 4096x768
+	serverWand          = "88.198.62.155:1234"
+	serverBühne         = "88.198.62.155:1234"
 )
 
 var showEveryPixel = int(1.0 / scale)
